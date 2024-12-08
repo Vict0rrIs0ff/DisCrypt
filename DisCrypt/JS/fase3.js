@@ -4,10 +4,10 @@ function askPassword() {
         return;
     }
     if (password === "FROM BEING PREFEITO") {
-        window.location.href = "ultimafase.html";
+        window.location.href = "ultima.html";
     }
     else if (password === "from being prefeito") {
-        window.location.href = "ultimafase.html";
+        window.location.href = "ultima.html";
     }
     else {
         alert("Senha incorreta. Desista enquanto pode.");
