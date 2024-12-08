@@ -6,9 +6,9 @@
 
 ## Como Jogar
 
-1. Inicie o jogo clicando no título da página inicial.
-2. Cada fase contém um desafio único que deve ser resolvido para avançar.
-3. Explore a página para encontrar pistas e utilize lógica e raciocínio para decifrar os enigmas.
+1. Algumas funcionalidade do jogo não funcionam em servidor local, porntanto o jogo está disponível no netlify, basta jogar o link no seu navegador favorito.
+2. https://discrypt.netlify.app
+3. Explore a página e seus arquivos para encontrar pistas e utilize lógica e raciocínio para decifrar os enigmas.
 
 ---
 
@@ -20,21 +20,7 @@
 ## Requisitos
 
 - Navegador moderno.
-- Recomendação: rodar o jogo em um servidor local para evitar problemas de carregamento de fontes e mídia.
 
 ---
 
-### Como Configurar o Servidor Local
-
-1. **Live Server** (Visual Studio Code):
-   - Clique com o botão direito no arquivo `index.html` e selecione **"Open with Live Server"**.
-
-2. **Python HTTP Server**:
-   - Rode o comando:
-     ```bash
-     python -m http.server
-     ```
-
-3. Abra o navegador no endereço:
-   ```plaintext
-   http://127.0.0.1:8000/index.html
+### Boa Sorte!
