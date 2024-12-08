@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Gothenstone';
+    src: url('Gothenstone.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MecaGothix';
+    src: url('MecaGothix.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    font-family: 'Gothenstone', serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.logo {
+    font-family: 'MecaGothix', serif;
+    font-size: 4rem;
+    margin-top: 20px;
+    position: fixed;
+    top: 20px;
+}
+
+.credits-container {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    animation: scroll-up 15s linear forwards;
+}
+
+.credits {
+    font-family: 'Gothenstone', serif;
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+
+@keyframes scroll-up {
+    from {
+        bottom: -100%;
+    }
+    to {
+        bottom: 100%;
+    }
+}
+
+.thanks {
+    font-family: 'MecaGothix', serif;
+    font-size: 3rem;
+    opacity: 0;
+    position: fixed;
+    bottom: 50%;
+    transform: translateY(50%);
+    animation: fade-in 5s ease-in-out 14s forwards;
+}
+
+@keyframes fade-in {
+    to {
+        opacity: 1;
+    }
+}
