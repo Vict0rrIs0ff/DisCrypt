@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fim</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <video id="video" autoplay playsinline>
+        <source src="tonho.mp4" type="video/mp4">
+        Seu navegador não suporta a reprodução de vídeos.
+    </video>
+    <script>
+        const video = document.getElementById('video');
+
+        // Tentar reproduzir o vídeo
+        video.volume = 1.0; // Garante o volume máximo
+        video.play().catch((error) => {
+            console.error("Erro ao reproduzir o vídeo:", error);
+        });
+
+        // Redirecionar para FaseEXT.html após o término do vídeo
+        video.addEventListener('ended', () => {
+            window.location.href = "FaseEXT.html";
+        });
+    </script>
+</body>
+</html>
