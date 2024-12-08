@@ -6,7 +6,7 @@
 
 ## Como Jogar
 
-1. Algumas funcionalidade do jogo não funcionam em servidor local, porntanto o jogo está disponível no netlify, basta jogar o link no seu navegador favorito.
+1. Algumas funcionalidade do jogo não funcionam em servidor local, portanto o jogo está disponível no netlify, basta jogar o link no seu navegador favorito.
 2. https://discrypt.netlify.app
 3. Explore a página e seus arquivos para encontrar pistas e utilize lógica e raciocínio para decifrar os enigmas.
 
