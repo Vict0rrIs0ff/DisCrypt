@@ -12,7 +12,8 @@
 
 ---
 
-### Dica:
+### Dicas:
+- Cada nível exigirá do jogador decodificar um tipo DIFERENTE de criptografia, as dicas devem ajudá-lo a descobrir qual o tipo.
 - Respostas podem exigir atenção a detalhes e podem estar **escondidas em lugares inesperados**.
 
 ---
